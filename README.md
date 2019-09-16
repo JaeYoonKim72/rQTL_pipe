@@ -1,4 +1,4 @@
-# rQTL pipe
+# rQTL pipeline
 
 rQTL pipeline was based on R/qtl libaray developed by Borman, and constructed by Jae-Yoon Kim.
 
@@ -9,7 +9,7 @@ This analysis piplinee uses a VCF file as input file and performs a single QTL a
 
 The flow-chart is as follows:
 
-![RQTL1](https://user-images.githubusercontent.com/49300659/64957921-f3643400-d8c8-11e9-8439-817b6d9f4d22.png)
+![RQTL1_new](https://user-images.githubusercontent.com/49300659/64958429-1cd18f80-d8ca-11e9-8543-1d853e79de3b.png)
 
 
 # Basic Usage
@@ -19,25 +19,23 @@ Usage: run_qtl.R -g [VCF] -p [PHENO] -map [GMAP] -maf [MAF] -mms [MMISSING] -ims
 ![RQTL2](https://user-images.githubusercontent.com/49300659/64957960-07a83100-d8c9-11e9-9c63-6812cfb4e140.jpg)
 
 
-    Example: python Intro.py -m Dstat \
+    Example: Rscript Intro.py -m Dstat \
     
-                         --input ExampleData/TestSet_234.chr10.vcf.gz \
+                         -g ExampleData/Test_sample_429_geno.vcf.gz \   #VCF file
                          
-                         --info ExampleData/TestSet_234.sample_group_info.txt \
+                         -p ExampleData/Test_sample_429_pheno.txt \     #Phenotype file
                          
-                         --popO Wild_Mix_GroupA \
+                         -map ExampleData/Test_Genetic_map.txt \        #Genetic map file
                          
-                         --popT Cultivar_B \
+                         -maf 0.05 \                                    #Minor allele frequency cut-off
                          
-                         --pop1 Cultivar_A \
+                         -mms 0.1  \                                    #Variant missing rate cut-off
                          
-                         --pop2 Cultivar_OutGroup \
+                         -ims 0.1  \                                    #Sample missing rate cut-off
                          
-                         --chr 10 \
+                         -met hk   \                                    #Calculation method (hk, em, imp)
                          
-                         --window 50000 \
-                         
-                         --slide 25000
+                         -out QTL_results                               #Output directory
 
 
 # Requirement
