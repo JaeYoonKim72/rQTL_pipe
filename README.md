@@ -42,7 +42,7 @@ Usage: run_qtl.R -g [VCF] -p [PHENO] -map [GMAP] -maf [MAF] -mms [MMISSING] -ims
 
 # 4. Results
 
-Result files are provided with 13 files including the following 3 images.
+Result files are provided with a totla of 13 files including the following 3 images.
 
 ![qtl_resul4](https://user-images.githubusercontent.com/49300659/64959443-147a5400-d8cc-11e9-9c9b-c4dd3c3fa5e0.png)
 
