@@ -16,7 +16,7 @@ The flow-chart is as follows:
 
 Usage: run_qtl.R -g [VCF] -p [PHENO] -map [GMAP] -maf [MAF] -mms [MMISSING] -ims [IMISSING] -met [METHOD] -out [OUTPUT]
 
-![RQTL2](https://user-images.githubusercontent.com/49300659/64957960-07a83100-d8c9-11e9-9c63-6812cfb4e140.jpg)
+![rqtl3](https://user-images.githubusercontent.com/49300659/64959102-6f5f7b80-d8cb-11e9-86ae-8310ebedc4bb.png)
 
 
     Example: Rscript run_qtl.R \
@@ -38,18 +38,23 @@ Usage: run_qtl.R -g [VCF] -p [PHENO] -map [GMAP] -maf [MAF] -mms [MMISSING] -ims
                          -out QTL_results                               # Output directory
 
 
-# Requirement
+# 4. Results
+
+![qtl_resul4](https://user-images.githubusercontent.com/49300659/64959443-147a5400-d8cc-11e9-9c9b-c4dd3c3fa5e0.png)
+
+
+# 5. Requirement
 
 Python program of > 3.0 version and R program of > 3.4.3 version are required.
 
 Qtl and ggplot2 libraris of R are also requiered.
 
 
-# Contact
+# 6. Contact
 
 jaeyoonkim72@gmail.com
 
 
-# Reference
+# 7. Reference
 
 Broman, K. W., Wu, H., Sen, Ś., & Churchill, G. A. (2003). R/qtl: QTL mapping in experimental crosses. Bioinformatics, 19(7), 889-890.
