@@ -11,7 +11,7 @@ Source code was written in Python and R languages and supported on windows and l
 
 The flow-chart is as follows:
 
-![그림2](https://user-images.githubusercontent.com/49300659/81289301-25691700-90a1-11ea-9058-e1d1e9579efd.jpg)
+![그림3](https://user-images.githubusercontent.com/49300659/81289390-4e89a780-90a1-11ea-98a1-96fa95c69979.jpg)
 
 
 # 3. Usage
