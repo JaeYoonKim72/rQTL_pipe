@@ -11,7 +11,7 @@ Source code was written in Python and R languages and supported on windows and l
 
 The flow-chart is as follows:
 
-![RQTL1_new](https://user-images.githubusercontent.com/49300659/64958951-18f23d00-d8cb-11e9-8ae5-8a4a06cb39af.png)
+![그림1](https://user-images.githubusercontent.com/49300659/81289160-e0dd7b80-90a0-11ea-9217-09620b624f91.jpg)
 
 
 # 3. Usage
